@@ -14,4 +14,4 @@
  * limitations under the License.
  */
 
-include ':sample', ':location-core', ':location-google', ':location-huawei'
+include ':sample', ':location-core', ':location-google', ':location-huawei', ':location-lost'
