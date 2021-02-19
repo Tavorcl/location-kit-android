@@ -30,13 +30,13 @@ Add the dependencies for the artifacts you need in the `build.gradle` file for y
 ```groovy
 dependencies {
     // To use the Google Location Services (GLS) via Location Kit
-    implementation 'com.tavorlabs.android.libraries.kits.location:location-google:1.0.0'
+    implementation 'com.tavorlabs.android.libraries.kits.location:location-google:1.1.0'
 
     // To use the HUAWEI Location Kit via Location Kit
-    implementation 'com.tavorlabs.android.libraries.kits.location:location-huawei:1.0.0'
+    implementation 'com.tavorlabs.android.libraries.kits.location:location-huawei:1.1.0'
 
     // To use Lost via Location Kit
-    implementation 'com.tavorlabs.android.libraries.kits.location:location-lost:1.0.0'
+    implementation 'com.tavorlabs.android.libraries.kits.location:location-lost:1.1.0'
 
 }
 ```
@@ -74,9 +74,9 @@ configurations {
 }
 
 dependencies {
-    google 'com.tavorlabs.android.libraries.kits.location.location:location-google:1.0.0'
-    huawei 'com.tavorlabs.android.libraries.kits.location:location-huawei:1.0.0'
-    lost 'com.tavorlabs.android.libraries.kits.location:location-lost:1.0.0'
+    google 'com.tavorlabs.android.libraries.kits.location.location:location-google:1.1.0'
+    huawei 'com.tavorlabs.android.libraries.kits.location:location-huawei:1.1.0'
+    lost 'com.tavorlabs.android.libraries.kits.location:location-lost:1.1.0'
 }
 ```
 
